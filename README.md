@@ -1,7 +1,6 @@
 ## Seminar 5
 
 In diesem Seminar werden wir mit Angular 2 von der Command Line aus arbeiten. 
-Zuerst etwas umschauen. node.js ist schon vorinstalliert.
 
 1. Cloud 9 mit nur Blank Ubuntu anlegen
 2. In der Bash `node` eingeben, dann Javascript ausprobieren
@@ -58,9 +57,9 @@ z.B. http://seminar5.hol42.c9users.io:8080/
 9. Verändere etwas: Navigiere in Cloud 9 im "Workspace" zu der Source
 die den Text "app works!" enthält:
 
-my-app > src > app > app.component.ts
+`my-app > src > app > app.component.ts`
 
-(Das ist nicht Javascript, das ist jetzt) Typescript und das das zwei Punkte
+(Das ist nicht Javascript, das ist jetzt Typescript) und das dass zwei Punkte
 im Filenamen sind, lässt vielleicht den einen oder anderen zusammenzucken, aber 
 in Angular 2 und allgemein Node finden sie diese Namenskonvention scheinbar 
 cool.
@@ -79,7 +78,7 @@ export class AppComponent {
   title = 'Sehen wir mal ob das funktioniert!';
 }
 ```
-Der Browser find beim Speichern automatisch aktualisiert. Wir arbeiten hier 
+Der Browser wird beim Speichern automatisch aktualisiert. Wir arbeiten hier 
 mit Hot Reload. Das ist ein Feature den uns Webpack bringt.
 
 Webpack ist ein node Modul, dass im Build Prozess benutzt wird und im Development
